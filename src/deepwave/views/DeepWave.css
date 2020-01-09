@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2018, 11:14:52 AM
+    Author     : atphan
+*/
+
+#lblAppName {
+    -fx-text-fill: white;
+}
+
+#lblAppName:hover {
+    -fx-text-fill: aquamarine;
+}
+
+.label-level-1 {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.label-level-2 {
+    -fx-text-fill: gray;
+}
+
+.left-menu-button {
+    -fx-background-color: transparent; 
+    -fx-text-fill: gray;
+    -fx-font-weight: bold;
+}
+
+.left-menu-button:hover {
+    -fx-text-fill: white;
+}
+
+.left-menu-button-clicked {
+    -fx-text-fill: aquamarine;
+}
+
+.main-container-title {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+    -fx-padding: 20 20 20 20;
+}
+
+
+/*
+    PLAYER
+*/
+#lblSongName {
+    -fx-text-fill: white;
+}
+
+#lblSongName:hover {
+    -fx-text-fill: aquamarine;
+}
+
+#lblArtistName {
+    -fx-text-fill: #616161;
+}
+#lblArtistName:hover {
+    -fx-text-fill: aquamarine;
+}
+/*
+    END OF PLAYER
+*/
+
+/*
+   ALL SPECIFIC ELEMENTS
+*/
+#allAlbumsRoot {
+    -fx-padding: 10 10 10 10;
+}
+
+#allArtistsRoot {
+    -fx-padding: 10 10 10 10;
+}
+
+#allSongsRoot {
+    -fx-padding: 10 10 10 10;
+}
+
+/*
+    END OF ALL SPECIFIC ELEMENTS
+*/
+
+/*
+    SPECIFIC SINGLE ELEMENT
+*/
+.vbox-element {
+    -fx-background-color: #1d1d1d;
+    -fx-min-width: 100;
+    -fx-min-height: 200;
+    -fx-pref-width: 100;
+    -fx-pref-height: 250;
+    -fx-max-width: 200;
+    -fx-max-height: 350;
+    -fx-padding: 10 10 10 10;
+}
+
+.vbox-element:hover {
+    -fx-background-color: derive(-fx-base, 1%);
+}
+
+.vbox-element:hover .label-level-1{
+    -fx-text-fill: black;
+}
+
+.album-vbox {
+}
+
+.album-image {
+}
+
+.artist-vbox {
+}
+
+.song-vbox {
+}
+
+/*
+    END OF SPECIFIC SINGLE ELEMENT
+*/
+
+/*
+    SONGS VIEW
+*/
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    /*-fx-size: 15;*/
+    -fx-border-width: 0 0 0 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view.column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    /*-fx-font-size: 20;*/
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+.table-view .table-row-cell {
+    -fx-border-width: 1 0 1 0;    
+    -fx-pref-height: 30;
+    -fx-alignment: center-right;
+}
+
+.table-view:focused .table-row-cell:focused {
+    -fx-border-color: derive(-fx-base, 20%);
+    -fx-background-insets: 0 0 0 0;
+    -fx-text-fill: aquamarine;
+}
+
+.table-view:focused .table-row-cell:selected {
+    -fx-background-color: derive(-fx-base, 20%);
+    -fx-background-insets: 0 0 0 0;
+    -fx-text-fill: aquamarine;
+}
+
+/* Row hovered */
+.table-view:row-selection .table-row-cell:filled:hover {
+    -fx-background-color: derive(-fx-base, 10%);;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.table-view:focused .table-row-cell:focused {
+    -fx-border-color: derive(-fx-base, 20%);
+    -fx-background-insets: 0 0 0 0;
+    -fx-table-cell-border-color: transparent;
+}
+/*
+    END OF SONGS VIEW
+*/
