@@ -1,0 +1,65 @@
+{
+  "name": "Jason Mraz",
+
+  "datePublished": {
+    "year": 2005,
+    "month": "MAY",
+    "chronology": {
+      "id": "ISO",
+      "calendarType": "iso8601"
+    },
+    "era": "CE",
+    "monthValue": 5,
+    "dayOfMonth": 1,
+    "dayOfYear": 121,
+    "dayOfWeek": "FRIDAY",
+    "leapYear": false
+  },
+
+
+  "description": null,
+
+
+  "songs": [
+    {
+      "name": "I'm Yours",
+      "singer": {
+        "firstName": "Jason Mraz",
+        "lastName": "",
+        "birthday": {
+          "year": 2005,
+          "month": "JANUARY",
+          "chronology": {
+            "id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "era": "CE",
+          "monthValue": 1,
+          "dayOfMonth": 1,
+          "dayOfYear": 1,
+          "dayOfWeek": "SATURDAY",
+          "leapYear": true
+        }
+      },
+      "composer": {
+        "firstName": "Jason Mraz",
+        "lastName": "",
+        "birthday": {
+          "year": 2005,
+          "month": "JANUARY",
+          "chronology": {
+            "id": "ISO",
+            "calendarType": "iso8601"
+          },
+          "era": "CE",
+          "monthValue": 1,
+          "dayOfMonth": 1,
+          "dayOfYear": 1,
+          "dayOfWeek": "SATURDAY",
+          "leapYear": true
+        }
+      }
+    }
+  ]
+}
+
